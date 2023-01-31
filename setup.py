@@ -1,13 +1,8 @@
 from setuptools import setup, find_packages
-import codecs
-import os
 
-here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-	long_description = "\n" + fh.read()
 
-VERSION = '0.1'
+VERSION = '0.2'
 DESCRIPTION = 'Python module to store data and encrypt it with two security layers.'
 
 
@@ -22,7 +17,7 @@ setup(
 	install_requires=[],
 	keywords=['python', 'save', 'safe', 'write', 'encrypt', 'encode', 'security'],
 	classifiers=[
-		"Development Status :: 1 - Releasing",
+		"Development Status :: 5 - Production/Stable",
 		"Intended Audience :: Developers",
 		"Programming Language :: Python :: 3",
 		"Operating System :: Unix",

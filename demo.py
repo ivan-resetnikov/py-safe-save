@@ -1,5 +1,6 @@
-import pss
+import pyss
 
+text = input('Enter text to encrypt > ')
 
-key = pss.dump('test.bin', 'Test message!')
-print(pss.load('test.bin', key))
+key = pyss.dump('test.bin', text)
+print(pyss.load('test.bin', key))
